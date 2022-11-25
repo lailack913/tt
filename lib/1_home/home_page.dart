@@ -636,8 +636,6 @@ class _scnState extends State<scn> {
     //List<dynamic> list2=json.decode(body);
 
     print(list1);
-    //litems.clear();  //to not print the items in litems just print value in mySql colum(name ,phone,..)
-    //items.clear();
     for (int i=0; i<list1.length; i++){
       building_typeitems.add(list1[i]["building_type"]);
       building_sell_rentitems.add(list1[i]["building_sell_rent"]);
