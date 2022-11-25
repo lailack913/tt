@@ -625,7 +625,6 @@ class _scnState extends State<scn> {
   var client_phoneitems=[];
   var imgListitems=['https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=600'
       'https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=600'
-    //'https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=600'
   ];
   Future getData() async{
     var url=Uri.parse("http://localhost:4000/ho");
