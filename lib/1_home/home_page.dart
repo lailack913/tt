@@ -631,7 +631,6 @@ class _scnState extends State<scn> {
     Response response= await get(url);
 
     String body =response.body;
-
     List<dynamic> list1=json.decode(body);
     //List<dynamic> list2=json.decode(body);
 
