@@ -509,7 +509,7 @@ var residential_main_imgitems=[];
               itemCount: land_typeitems.length,
               itemBuilder: (BuildContext context, int index) {
                return post_templates.post_land(context,
-                   "land_main_imgitems[index]",
+                   land_main_imgitems[index],
                    land_typeitems[index],
                    land_cityitems[index],
                    land_districtitems[index],
@@ -535,7 +535,7 @@ var residential_main_imgitems=[];
               itemCount: store_sell_rentitems.length,
               itemBuilder: (BuildContext context, int index) {
                 return post_templates.post_store(context,
-                    "stor_main_imgitems[index]",
+                    stor_main_imgitems[index],
                     store_sell_rentitems[index],
                     store_cityitems[index],
                     store_districtitems[index],
@@ -560,7 +560,7 @@ var residential_main_imgitems=[];
               itemCount: residential_typeitems.length,
               itemBuilder: (BuildContext context, int index) {
                 return post_templates.post_residential(context,
-                    "residential_main_imgitems[index]",
+                    residential_main_imgitems[index],
                     residential_typeitems[index],
                     residential_sell_rentitems[index],
                     residential_cityitems[index],
@@ -786,7 +786,7 @@ class _scnState extends State<scn> {
   itemCount: land_typeitems.length,
   itemBuilder: (BuildContext context, int index) {
   return post_templates.post_land(context,
-  "land_main_imgitems[index]",
+  land_main_imgitems[index],
   land_typeitems[index],
   land_cityitems[index],
   land_districtitems[index],
@@ -892,7 +892,7 @@ class _scnState extends State<scn> {
             itemCount: store_sell_rentitems.length,
             itemBuilder: (BuildContext context, int index) {
               return post_templates.post_store(context,
-                  "stor_main_imgitems[index]",
+                  stor_main_imgitems[index],
                   store_sell_rentitems[index],
                   store_cityitems[index],
                   store_districtitems[index],
